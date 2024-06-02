@@ -8,10 +8,10 @@ import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.frankmoley.lil.adminweb.data.model.Customer;
-import com.frankmoley.lil.adminweb.data.model.Order;
-import com.frankmoley.lil.adminweb.data.repository.CustomerRepository;
-import com.frankmoley.lil.adminweb.data.repository.OrderRepository;
+import com.example.spring.security.data.model.Customer;
+import com.example.spring.security.data.model.Order;
+import com.example.spring.security.data.repository.CustomerRepository;
+import com.example.spring.security.data.repository.OrderRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.GrantedAuthority;
